@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bday.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="brand">Happy Birthday.</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Explore</a>
+                <a href="image.html">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h1>FROM <br><span>BSIT 1A</span></h1>
+            <p>Dear Ma’am Memay
+                We want to express our sincere gratitude for all the efforts you have given to us. Since day one, you have always been patient despite the fact that we are always noisy. We hope that you and your family will always remain healthy and happy.  With your dedication and passion we enjoyed each and every class of yours. We really appreciate the way in which you make things easier for us.
+                We thank you again for all the wonderful work you have done
+                and wish you all the best for your future endeavors. Happy Birthday!
+                Love,
+                BSIT 1A</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        //js ng navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () =>{
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+    </script>
+    
+</body>
+</html>
+
+//18
